@@ -1,0 +1,59 @@
+# Prompts
+
+(********************Human interpretable concepts and associated prompts)********************
+
+**Emotions:**
+
+- Happy: "What makes me feel happy?", "What are some things that bring me joy?", "When do I feel most content?"
+- Sad: "What makes me feel sad?", "What are some things that make me feel down?", "When do I feel most unhappy?"
+
+**Physical sensations:**
+
+- Hot: "What are some ways to cool down on a hot day?", "What are some symptoms of heat exhaustion?", "What causes heat stroke?"
+- Cold: "What are some ways to warm up when it's cold?", "What are some symptoms of hypothermia?", "What causes frostbite?"
+
+**Personal traits:**
+
+- Honest: "What does it mean to be honest?", "Why is honesty important?", "What are some benefits of being honest?"
+- Ambitious: "What does it mean to be ambitious?", "Why is ambition important?", "What are some traits of successful people?"
+
+**Knowledge and education:**
+
+- Science: "What are some scientific theories?", "What are some famous scientists?", "What is the scientific method?"
+- History: "What are some important events in history?", "Who are some famous historical figures?", "What are some historical landmarks?"
+
+**Creativity and art:**
+
+- Music: "What are some famous musicians?", "What are some different types of music?", "What is the history of music?"
+- Writing: "What are some famous authors?", "What are some different types of writing?", "What is the process of writing a book?"
+
+**Nature:**
+
+- Trees: "What are some different types of trees?", "What are some benefits of planting trees?", "What are some threats to tree populations?"
+- Oceans: "What are some different oceans?", "What are some threats to ocean health?", "What are some notable sea creatures?"
+
+**Food:**
+
+- Vegetables: "What are some different types of vegetables?", "What are some health benefits of eating vegetables?", "What are some ways to prepare vegetables?", "What are some recipes that use zucchini as the main ingredient?", "What are some health benefits of consuming a plant-based diet?", "What are some sustainable farming practices for growing leafy greens?"
+- Desserts: "What are some different types of desserts?", "What are some famous desserts from different cultures?", "What are some ways to make desserts healthier?"
+- Desserts: "What are some popular desserts that originated in France?", "What are some vegan alternatives to traditional baked goods?", "What are some ways to decorate a cake for a special occasion?"
+
+**Relationships:**
+
+- Friendship: "What does it mean to be a good friend?", "What are some benefits of having friends?", "What are some common challenges in maintaining friendships?"
+- Love: "What does it mean to be in love?", "What are some benefits of being in love?", "What are some challenges in maintaining a loving relationship?"
+
+**Health:**
+
+- Mental health: "What are some common mental health conditions?", "What are some treatment options for mental health conditions?", "What are some ways to improve mental health?"
+- Physical health: "What are some common physical health conditions?", "What are some ways to maintain physical health?", "What are some benefits of exercise?"
+
+**Sports:**
+
+- Basketball: "What are the rules of basketball?", "What are some famous basketball players?", "What are some notable basketball games in history?", "What is the history of basketball in the United States?", "What are some unique rules of wheelchair basketball?", "How has the popularity of basketball grown globally over the past decade?”
+- Soccer: "What are the rules of soccer?", "What are some famous soccer players?", "What are some notable soccer games in history?"
+
+**Politics:**
+
+- Democracy: "What is democracy?", "What are some benefits of democracy?", "What are some challenges in implementing democracy?"
+- Dictatorship: "What is a dictatorship?", "What are some examples of dictatorships?", "What are some criticisms of dictatorships?"
