@@ -34,3 +34,5 @@ def get_interpretability(act_prompts):
         if "Yes" in interpretation:
            # print(interpretation[4:])
             interpretable_neurons[neur] = interpretation[4:]
+            
+    return interpretable_neurons
