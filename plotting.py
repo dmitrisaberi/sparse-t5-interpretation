@@ -2,19 +2,20 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pickle
 
-def plot_topk(layer_number, encoder=True):
+def plot_topk(layer_number, k=10, encoder=True, log_scale=False):
     with open("top-10-neurons.pkl", 'rb') as fp:
         top_k = pickle.load(fp)
     if encoder:
         layer = "encoder.block." + str(layer_number) + ".layer.1.DenseReluDense.act"
     else:
-        layer = "encoder.block." + str(layer_number) + ".layer.2.DenseReluDense.act"
+        layer = "decoder.block." + str(layer_number) + ".layer.2.DenseReluDense.act"
     values = top_k[layer]
     plt.figure(figsize=(10,6))
 
-    counts, bins, bars = plt.hist(values, bins=range(3072)) #, log=True)
-    plt.title("Top-" + str(k) + " neuron presence; Encoder layer " + str(layer_number))
+    counts, bins, bars = plt.hist(values, bins=range(3072), log=log_scale)
+    plt.title("Top-" + str(k) + " neuron firing count; Decoder layer " + str(layer_number))
     plt.show()
+    return counts
 
 def plot_layer_sparsities():
     with open("squad_layer_sparsity.pkl", "rb") as fp:
