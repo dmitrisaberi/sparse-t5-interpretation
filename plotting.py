@@ -9,11 +9,12 @@ def plot_topk(layer_number, k=10, encoder=True, log_scale=False):
         layer = "encoder.block." + str(layer_number) + ".layer.1.DenseReluDense.act"
     else:
         layer = "decoder.block." + str(layer_number) + ".layer.2.DenseReluDense.act"
+
     values = top_k[layer]
     plt.figure(figsize=(10,6))
 
     counts, bins, bars = plt.hist(values, bins=range(3072), log=log_scale)
-    plt.title("Top-" + str(k) + " neuron firing count; Decoder layer " + str(layer_number))
+    plt.title("Top-" + str(k) + " neuron firing count; " + layer[:7] + " layer " + str(layer_number))
     plt.show()
     return counts
 
