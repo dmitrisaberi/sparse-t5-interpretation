@@ -34,5 +34,14 @@ def get_interpretability(act_prompts):
         if "Yes" in interpretation:
            # print(interpretation[4:])
             interpretable_neurons[neur] = interpretation[4:]
-            
+
     return interpretable_neurons
+
+def fraction_interpretable(interpretable_neurons):
+    interpretable = 0
+    total = 0
+    for neur in interpretable_neurons.keys():
+        total += 1
+        if "Yes" in interpretable_neurons[neur]:
+            interpretable += 1
+    return interpretable/total
